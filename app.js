@@ -30,3 +30,14 @@ var homeSwiper = new Swiper(".home-swiper", {
 
 
 
+window.addEventListener('scroll', () =>{
+    const header = document.querySelector('.header')
+    if(this.scrollY >= 100){
+        header.classList.add('scroll-header')
+    }else{
+        header.classList.remove('scroll-header')
+    }
+})
+
+
+
