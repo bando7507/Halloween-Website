@@ -28,6 +28,16 @@ var homeSwiper = new Swiper(".home-swiper", {
         },
       });
 
+var newSwiper = new Swiper(".new-swiper", {
+    spaceBetween : 16,
+    slidesPerView: 'auto',
+    centeredSlides: true,
+    loop: 'true', 
+        // pagination: {
+        //   el: ".swiper-pagination",
+        // },
+      });
+
 
 
 window.addEventListener('scroll', () =>{
